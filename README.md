@@ -2,35 +2,9 @@
 
 This is my calculator project as part of The Odin Project's curriculum.
 
-BUTTON OPTIONS:
-- number
-- operator
-- clear
-- modifier (above fxns)
-- equals
+I am pretty proud of how this turnt out, although I really do think I could clean up the JS logic to be a bit nicer. It was fun doing the HTML and CSS and tweaking that so that it actually feels more interactive to use. Additionally, it was a fun challenge to figure out the logic for the JS. I did a few flowcharts and used "scratch paper" to figure out the logic and then implementing it, using different states and toggles was interesting to learn. Overall this was a very fun project and it taught me a lot about JS.
 
-STATE OPTIONS:
-- default state (nothing)
-- number state (operatorPressed ON or OFF)
-- operator state (on or off)
-
-FLOWCHART:
-- default state (nothing) options:
-    press number: show on screen, update ONE
-    press anything else: nothing happens
-
-- number state (shown) options:
-    press number: add another digit, update ONE. if answerShown is on, clear everythign then reset() and turn answerShwon off.
-    press modifier: modify current number (% or +/-)
-    press operator: on operatorPressed, log operator
-    press allclear: reset ONE, TWO, OPERATOR. update display
-    press equals (operatorPressed on): operate, update display. answer becomes ONE, two becomes NULL. operatorPressed falls, clear operator.    answerShown is on
-
-- operator state (on or off) options:
-    press number: display resets and places number. operatorPressed on means move number to TWO/
-    press operator: replace operator
-    press modifier: operate on number.
-    press equals (operatorPressed on): operate ONE with ONE, update display. answer becomes ONE, two becomes NULL.
+In the future I would like to take a second look at the logic and revamp it to be more concise and readable. Right now it is a bit of spaghetti code so I would like to take a second shot at it.
 
 
 
