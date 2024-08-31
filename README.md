@@ -6,7 +6,9 @@ I am pretty proud of how this turnt out, although I really do think I could clea
 
 In the future I would like to take a second look at the logic and revamp it to be more concise and readable. Right now it is a bit of spaghetti code so I would like to take a second shot at it.
 
-
+TO FIX:
+- rewrite codebase
+- disable decimal button after 1 use
 
 
 
